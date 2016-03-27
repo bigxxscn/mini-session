@@ -1,0 +1,23 @@
+{
+  "name": "mini-session",
+  "version": "0.1.0",
+  "description": "A mini session module for Node.js",
+  "main": "mini-session.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigxxscn/mini-session.git"
+  },
+  "keywords": [
+    "session",
+    "Node.js"
+  ],
+  "author": "bigxxscn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigxxscn/mini-session/issues"
+  },
+  "homepage": "https://github.com/bigxxscn/mini-session#readme"
+}
