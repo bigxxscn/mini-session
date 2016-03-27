@@ -56,15 +56,15 @@ console output :
 
 ## API
 #### sessionId
-return current sessionId storaged in cookies
+Return current sessionId storaged in cookies. This id was generated random at first time visit from client.
 #### set(key, value)
-set value to session with key
+Set value to session with key.
 #### get(key)
-get value from session by key
+Get value from session by key.
 #### abandon()
-remove all data from current session
+Remove all data from current session.
 #### dump()
-display current session data in console
+Display current session data in console.
 
 ## History
 #### ver 0.1.0
