@@ -29,8 +29,8 @@ http.createServer(function(req, res){
 
 	console.log("session.get(\"userId\") = " + session.get("userId"));
 
-	session.abanden();
-	console.log("after abanden, session data is :");
+	session.abandon();
+	console.log("after abandon, session data is :");
 	session.dump();
 
 	res.writeHead(200, {"Content-Type":"text/html"});
@@ -53,7 +53,7 @@ console output :
     
     session.get("userId") = 123
     
-    after abanden, session data is :
+    after abandon, session data is :
     { count: 0 }
 
 ## API
@@ -65,7 +65,7 @@ return current sessionId storaged in cookies
 set value to session with key
 #### get(key)
 get value from session by key
-#### abanden()
+#### abandon()
 remove all data from current session
 #### dump()
 display curretn session data into console
