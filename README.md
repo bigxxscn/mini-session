@@ -64,9 +64,9 @@ get value from session by key
 #### abandon()
 remove all data from current session
 #### dump()
-display curretn session data into console
+display current session data in console
 
 ## History
-### ver 0.1.0
+#### ver 0.1.0
 2016.3.26
 created
