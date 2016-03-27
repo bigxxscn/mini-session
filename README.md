@@ -57,12 +57,18 @@ console output :
     { count: 0 }
 
 ## API
-### [property] sessionId string
-return current sessionId storaged in cookies.
-### [method] set(string key, object value)
-### [method] object get(string key)
-### [method] void abanden(void)
-### [method] void dumt(void)
+### propertys:
+#### sessionId
+property, return current sessionId storaged in cookies.
+### methods:
+#### set(key, value)
+set value to session with key
+#### get(key)
+get value from session by key
+#### abanden()
+remove all data from current session
+#### dump()
+display curretn session data into console
 
 ## History
 ### ver 0.1.0
