@@ -8,7 +8,9 @@ mini-session is a simple module for Node.js, it's data storaged in memery, so if
 Before use mini-session, u should install "Cookies" package first.
 
     npm install cookies
+
 then
+
     npm install mini-session
 
 ## Demo
