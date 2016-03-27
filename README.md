@@ -59,7 +59,7 @@ console output :
 ## API
 ### propertys:
 #### sessionId
-property, return current sessionId storaged in cookies.
+return current sessionId storaged in cookies
 ### methods:
 #### set(key, value)
 set value to session with key
