@@ -1,6 +1,6 @@
 {
   "name": "mini-session",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A mini session module for Node.js",
   "main": "mini-session.js",
   "scripts": {
