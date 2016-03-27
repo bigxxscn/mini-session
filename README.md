@@ -16,7 +16,6 @@ var Cookies = require("Cookies");
 var Session = require("./mini-session.js");
 
 http.createServer(function(req, res){
-
 	var cookies = new Cookies(req, res);
 	var session = new Session(cookies);//init session with cookies
 	
@@ -35,7 +34,6 @@ http.createServer(function(req, res){
 
 	res.writeHead(200, {"Content-Type":"text/html"});
 	res.end("<h1>session test done!</h1>");
-
 }).listen(8500);
 
 console.log("Server started : http://localhost:8500");
@@ -57,10 +55,8 @@ console output :
     { count: 0 }
 
 ## API
-### propertys:
 #### sessionId
 return current sessionId storaged in cookies
-### methods:
 #### set(key, value)
 set value to session with key
 #### get(key)
